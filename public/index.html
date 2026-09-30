@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Tayyaba Bibi | Front-End Web Developer &amp; Web Designer</title>
+  <meta name="description"
+    content="Tayyaba Bibi is a freelance front-end web developer and web designer. I build modern, responsive websites, landing pages and website redesigns for businesses and individuals.">
+  <meta name="author" content="Tayyaba Bibi">
+  <meta name="theme-color" content="#060916">
+
+  <!-- Social sharing (add an og:image and og:url when your site is live) -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Tayyaba Bibi | Front-End Web Developer &amp; Web Designer">
+  <meta property="og:description"
+    content="Modern, responsive and user-friendly websites for businesses and individuals.">
+  <meta name="twitter:card" content="summary">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+  <!-- Fonts: loaded with display=swap, with system fallbacks defined in styles.css -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;600;700&family=Figtree:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Marks the page as JS-enabled so scroll animations only run when they can finish -->
+  <script>document.documentElement.classList.add('js');</script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Tayyaba Bibi",
+    "jobTitle": "Front-End Web Developer & Web Designer",
+    "description": "Freelance front-end web developer and web designer building modern, responsive websites.",
+    "knowsAbout": ["HTML", "CSS", "JavaScript", "Python", "Responsive Web Design"]
+  }
+  </script>
+</head>
+
+<!--
+  ================================================================
+  BEFORE YOU PUBLISH: REPLACE THESE PLACEHOLDERS
+  ----------------------------------------------------------------
+  1. Contact section  : email, WhatsApp number, location
+  2. Footer           : GitHub, LinkedIn, Fiverr, WhatsApp links
+  3. Project cards    : add a real URL in data-demo-url="" on each
+                        "Live Demo" button once a project is hosted
+  4. Contact form     : add a form service URL to data-endpoint=""
+                        (see README.md for a step-by-step guide)
+  5. Skill levels     : edit the % values in the Skills section so
+                        they match your own honest self-assessment
+  ================================================================
+-->
+
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- SVG icon sprite (each icon is used by its id) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <symbol id="i-check" viewBox="0 0 24 24">
+      <polyline points="20 6 9 17 4 12" />
+    </symbol>
+    <symbol id="i-arrow-up" viewBox="0 0 24 24">
+      <line x1="12" y1="19" x2="12" y2="5" />
+      <polyline points="5 12 12 5 19 12" />
+    </symbol>
+    <symbol id="i-x" viewBox="0 0 24 24">
+      <line x1="18" y1="6" x2="6" y2="18" />
+      <line x1="6" y1="6" x2="18" y2="18" />
+    </symbol>
+    <symbol id="i-send" viewBox="0 0 24 24">
+      <line x1="22" y1="2" x2="11" y2="13" />
+      <polygon points="22 2 15 22 11 13 2 9 22 2" />
+    </symbol>
+    <symbol id="i-terminal" viewBox="0 0 24 24">
+      <polyline points="4 17 10 11 4 5" />
+      <line x1="12" y1="19" x2="20" y2="19" />
+    </symbol>
+    <symbol id="i-devices" viewBox="0 0 24 24">
+      <rect x="2" y="4" width="14" height="11" rx="2" />
+      <line x1="6" y1="19" x2="12" y2="19" />
+      <line x1="9" y1="15" x2="9" y2="19" />
+      <rect x="17" y="9" width="5" height="10" rx="1.5" />
+    </symbol>
+    <symbol id="i-pen" viewBox="0 0 24 24">
+      <path d="M12 19l7-7 3 3-7 7-3-3z" />
+      <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z" />
+      <path d="M2 2l7.586 7.586" />
+      <circle cx="11" cy="11" r="2" />
+    </symbol>
+    <symbol id="i-grid" viewBox="0 0 24 24">
+      <rect x="3" y="3" width="7" height="7" />
+      <rect x="14" y="3" width="7" height="7" />
+      <rect x="14" y="14" width="7" height="7" />
+      <rect x="3" y="14" width="7" height="7" />
+    </symbol>
+    <symbol id="i-layout" viewBox="0 0 24 24">
+      <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
+      <line x1="3" y1="9" x2="21" y2="9" />
+      <line x1="9" y1="21" x2="9" y2="9" />
+    </symbol>
+    <symbol id="i-layers" viewBox="0 0 24 24">
+      <polygon points="12 2 2 7 12 12 22 7 12 2" />
+      <polyline points="2 17 12 22 22 17" />
+      <polyline points="2 12 12 17 22 12" />
+    </symbol>
+    <symbol id="i-refresh" viewBox="0 0 24 24">
+      <polyline points="23 4 23 10 17 10" />
+      <polyline points="1 20 1 14 7 14" />
+      <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15" />
+    </symbol>
+    <symbol id="i-code" viewBox="0 0 24 24">
+      <polyline points="16 18 22 12 16 6" />
+      <polyline points="8 6 2 12 8 18" />
+    </symbol>
+    <symbol id="i-zap" viewBox="0 0 24 24">
+      <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+    </symbol>
+    <symbol id="i-pointer" viewBox="0 0 24 24">
+      <path d="M3 3l7.07 16.97 2.51-7.39 7.39-2.51L3 3z" />
+      <path d="M13 13l6 6" />
+    </symbol>
+    <symbol id="i-target" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="10" />
+      <circle cx="12" cy="12" r="6" />
+      <circle cx="12" cy="12" r="2" />
+    </symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24">
+      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+      <polyline points="22,6 12,13 2,6" />
+    </symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24">
+      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+      <circle cx="12" cy="10" r="3" />
+    </symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24">
+      <path
+        d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
+    </symbol>
+    <symbol id="i-github" viewBox="0 0 24 24">
+      <path
+        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+    </symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24">
+      <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+      <rect x="2" y="9" width="4" height="12" />
+      <circle cx="4" cy="4" r="2" />
+    </symbol>
+  </svg>
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="site-header" id="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Tayyaba Bibi, back to top">
+        <span class="brand-mark" aria-hidden="true">TB</span>
+        <span class="brand-name">Tayyaba Bibi</span>
+      </a>
+
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu"
+        aria-label="Open menu">
+        <span class="bars" aria-hidden="true"></span>
+      </button>
+
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-links">
+          <li><a class="nav-link" href="#home">Home</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#skills">Skills</a></li>
+          <li><a class="nav-link" href="#services">Services</a></li>
+          <li><a class="nav-link" href="#projects">Projects</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+        <a class="btn btn-primary btn-sm nav-cta" href="#contact">Hire Me</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+
+        <div class="hero-copy">
+          <p class="status"><span class="status-dot" aria-hidden="true"></span>Available for freelance projects</p>
+          <h1 id="hero-title">Hi, I'm Tayyaba Bibi</h1>
+          <p class="hero-role">Front-End Web Developer &amp; Web Designer</p>
+          <p class="hero-text">I create modern, responsive and user-friendly websites that help businesses and
+            individuals build a strong online presence.</p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View My Work</a>
+            <a class="btn btn-ghost" href="#contact">Let's Work Together</a>
+          </div>
+
+          <ul class="hero-points">
+            <li><svg class="icon" aria-hidden="true">
+                <use href="#i-check" />
+              </svg>Responsive on every device</li>
+            <li><svg class="icon" aria-hidden="true">
+                <use href="#i-check" />
+              </svg>Clean, readable code</li>
+            <li><svg class="icon" aria-hidden="true">
+                <use href="#i-check" />
+              </svg>Clear communication</li>
+          </ul>
+        </div>
+
+        <!-- Decorative developer visual: code becomes a live page -->
+        <div class="hero-visual" aria-hidden="true">
+          <div class="stage">
+            <div class="stage-glow"></div>
+
+            <div class="win win-code">
+              <div class="win-bar"><i></i><i></i><i></i><span class="win-tab">index.html</span></div>
+              <div class="code">
+                <div class="ln" style="--n:0;--in:0"><span class="tk-p">&lt;</span><span class="tk-t">section</span>
+                  <span class="tk-a">class</span><span class="tk-p">=</span><span class="tk-s">"hero"</span><span
+                    class="tk-p">&gt;</span></div>
+                <div class="ln" style="--n:1;--in:1"><span class="tk-p">&lt;</span><span class="tk-t">h1</span><span
+                    class="tk-p">&gt;</span>Hi, I'm Tayyaba<span class="tk-p">&lt;/</span><span
+                    class="tk-t">h1</span><span class="tk-p">&gt;</span></div>
+                <div class="ln" style="--n:2;--in:1"><span class="tk-p">&lt;</span><span class="tk-t">p</span><span
+                    class="tk-p">&gt;</span>Modern, responsive websites.<span class="tk-p">&lt;/</span><span
+                    class="tk-t">p</span><span class="tk-p">&gt;</span></div>
+                <div class="ln" style="--n:3;--in:1"><span class="tk-p">&lt;</span><span class="tk-t">a</span> <span
+                    class="tk-a">class</span><span class="tk-p">=</span><span class="tk-s">"btn"</span> <span
+                    class="tk-a">href</span><span class="tk-p">=</span><span class="tk-s">"#contact"</span><span
+                    class="tk-p">&gt;</span></div>
+                <div class="ln" style="--n:4;--in:2">Let's talk</div>
+                <div class="ln" style="--n:5;--in:1"><span class="tk-p">&lt;/</span><span class="tk-t">a</span><span
+                    class="tk-p">&gt;</span></div>
+                <div class="ln" style="--n:6;--in:0"><span class="tk-p">&lt;/</span><span
+                    class="tk-t">section</span><span class="tk-p">&gt;</span><span class="caret"></span></div>
+              </div>
+            </div>
+
+            <div class="win win-browser">
+              <div class="win-bar"><i></i><i></i><i></i><span class="win-url">your-website.com</span></div>
+              <div class="page">
+                <div class="pg-nav pg-pop" style="--k:0"><b></b><span></span><span></span><span></span></div>
+                <div class="pg-hero">
+                  <div class="pg-copy">
+                    <div class="pg-title pg-pop" style="--k:1">Hi, I'm Tayyaba</div>
+                    <div class="pg-sub pg-pop" style="--k:2">Modern, responsive websites.</div>
+                    <div class="pg-btn pg-pop" style="--k:3">Let's talk</div>
+                  </div>
+                  <div class="pg-art pg-pop" style="--k:2"><span class="orb"></span><span class="tile t1"></span><span
+                      class="tile t2"></span></div>
+                </div>
+                <div class="pg-cards">
+                  <i class="pg-pop" style="--k:4"></i><i class="pg-pop" style="--k:5"></i><i class="pg-pop"
+                    style="--k:6"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="phone">
+              <div class="phone-screen">
+                <div class="ph-nav pg-pop" style="--k:7"><b></b><span></span></div>
+                <div class="ph-title pg-pop" style="--k:8">Hi, I'm<br>Tayyaba</div>
+                <div class="ph-line pg-pop" style="--k:9"></div>
+                <div class="ph-line short pg-pop" style="--k:9"></div>
+                <div class="ph-btn pg-pop" style="--k:10">Let's talk</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div class="about-copy reveal">
+          <h2 id="about-title">A developer who cares about the details</h2>
+          <p>I'm a passionate web developer who enjoys turning ideas into clean, modern websites. I work with HTML, CSS,
+            JavaScript and Python, and I pay close attention to the details that make a site feel polished: thoughtful
+            spacing, readable typography and layouts that work well on every screen.</p>
+          <p>I'm always improving my skills by learning new techniques, refining my code and studying good design. When
+            I take on a project, I focus on understanding what you need, keeping communication clear and delivering a
+            website you're proud to share.</p>
+          <a class="btn btn-ghost" href="#contact">Start a conversation</a>
+        </div>
+
+        <aside class="about-card card reveal" style="--d:2" aria-label="Quick facts about Tayyaba">
+          <dl class="facts">
+            <div class="fact">
+              <dt>Role</dt>
+              <dd>Front-End Web Developer &amp; Web Designer</dd>
+            </div>
+            <div class="fact">
+              <dt>Specialty</dt>
+              <dd>Responsive websites and landing pages</dd>
+            </div>
+            <div class="fact">
+              <dt>Languages</dt>
+              <dd>HTML, CSS, JavaScript, Python</dd>
+            </div>
+            <div class="fact">
+              <dt>Work type</dt>
+              <dd>Freelance projects</dd>
+            </div>
+            <div class="fact">
+              <dt>Availability</dt>
+              <dd><span class="status-dot" aria-hidden="true"></span>Open to new projects</dd>
+            </div>
+          </dl>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+    <section class="section section-alt" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 id="skills-title">Skills I bring to every project</h2>
+          <p>The tools and techniques I use to design, build and polish websites.</p>
+        </div>
+
+        <!-- Edit the --level value and the % text to match your own skill level -->
+        <ul class="skills-grid">
+          <li class="skill card reveal" style="--level:90%;--d:0">
+            <div class="skill-top">
+              <span class="skill-icon" aria-hidden="true">&lt;/&gt;</span>
+              <h3>HTML5</h3>
+              <span class="skill-pct">100%</span>
+            </div>
+            <p class="skill-note">Semantic, accessible page structure</p>
+            <div class="meter" role="img" aria-label="HTML5 skill level: 90 percent"><span class="meter-fill"></span>
+            </div>
+          </li>
+          <li class="skill card reveal" style="--level:88%;--d:1">
+            <div class="skill-top">
+              <span class="skill-icon" aria-hidden="true">{ }</span>
+              <h3>CSS3</h3>
+              <span class="skill-pct">98%</span>
+            </div>
+            <p class="skill-note">Flexbox, Grid, animations and modern layouts</p>
+            <div class="meter" role="img" aria-label="CSS3 skill level: 88 percent"><span class="meter-fill"></span>
+            </div>
+          </li>
+          <li class="skill card reveal" style="--level:75%;--d:2">
+            <div class="skill-top">
+              <span class="skill-icon" aria-hidden="true">JS</span>
+              <h3>JavaScript</h3>
+              <span class="skill-pct">95%</span>
+            </div>
+            <p class="skill-note">Interactive menus, forms and dynamic UI</p>
+            <div class="meter" role="img" aria-label="JavaScript skill level: 75 percent"><span
+                class="meter-fill"></span></div>
+          </li>
+          <li class="skill card reveal" style="--level:65%;--d:3">
+            <div class="skill-top">
+              <span class="skill-icon" aria-hidden="true"><svg class="icon">
+                  <use href="#i-terminal" />
+                </svg></span>
+              <h3>Python</h3>
+              <span class="skill-pct">89%</span>
+            </div>
+            <p class="skill-note">Scripting and problem solving</p>
+            <div class="meter" role="img" aria-label="Python skill level: 65 percent"><span class="meter-fill"></span>
+            </div>
+          </li>
+          <li class="skill card reveal" style="--level:90%;--d:0">
+            <div class="skill-top">
+              <span class="skill-icon" aria-hidden="true"><svg class="icon">
+                  <use href="#i-devices" />
+                </svg></span>
+              <h3>Responsive Web Design</h3>
+              <span class="skill-pct">90%</span>
+            </div>
+            <p class="skill-note">Mobile-first layouts that adapt to any screen</p>
+            <div class="meter" role="img" aria-label="Responsive Web Design skill level: 90 percent"><span
+                class="meter-fill"></span></div>
+          </li>
+          <li class="skill card reveal" style="--level:70%;--d:1">
+            <div class="skill-top">
+              <span class="skill-icon" aria-hidden="true"><svg class="icon">
+                  <use href="#i-pen" />
+                </svg></span>
+              <h3>UI/UX Basics</h3>
+              <span class="skill-pct">70%</span>
+            </div>
+            <p class="skill-note">Clear hierarchy, spacing and usability</p>
+            <div class="meter" role="img" aria-label="UI/UX Basics skill level: 70 percent"><span
+                class="meter-fill"></span></div>
+          </li>
+          <li class="skill card reveal" style="--level:85%;--d:2">
+            <div class="skill-top">
+              <span class="skill-icon" aria-hidden="true"><svg class="icon">
+                  <use href="#i-grid" />
+                </svg></span>
+              <h3>Microsoft Office</h3>
+              <span class="skill-pct">85%</span>
+            </div>
+            <p class="skill-note">Documents, spreadsheets and presentations</p>
+            <div class="meter" role="img" aria-label="Microsoft Office skill level: 85 percent"><span
+                class="meter-fill"></span></div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================= SERVICES ================= -->
+    <section class="section" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 id="services-title">Services that help you get online</h2>
+          <p>From a first design to a finished, responsive website, here is how I can help.</p>
+        </div>
+
+        <ul class="services-grid">
+          <li class="service card reveal" style="--d:0">
+            <span class="service-icon" aria-hidden="true"><svg class="icon">
+                <use href="#i-layout" />
+              </svg></span>
+            <h3>Custom Website Design</h3>
+            <p>A unique, brand-focused design created around your goals, so your website stands out and feels like
+              yours.</p>
+          </li>
+          <li class="service card reveal" style="--d:1">
+            <span class="service-icon" aria-hidden="true"><svg class="icon">
+                <use href="#i-devices" />
+              </svg></span>
+            <h3>Responsive Web Development</h3>
+            <p>Websites that adapt smoothly to phones, tablets and desktops, so every visitor gets a great experience.
+            </p>
+          </li>
+          <li class="service card reveal" style="--d:2">
+            <span class="service-icon" aria-hidden="true"><svg class="icon">
+                <use href="#i-zap" />
+              </svg></span>
+            <h3>Landing Page Design</h3>
+            <p>Focused single-page designs that present your offer clearly and guide visitors to take action.</p>
+          </li>
+          <li class="service card reveal" style="--d:0">
+            <span class="service-icon" aria-hidden="true"><svg class="icon">
+                <use href="#i-refresh" />
+              </svg></span>
+            <h3>Website Redesign</h3>
+            <p>Give an outdated website a fresh, modern look with better structure, clearer content and improved
+              usability.</p>
+          </li>
+          <li class="service card reveal" style="--d:1">
+            <span class="service-icon" aria-hidden="true"><svg class="icon">
+                <use href="#i-code" />
+              </svg></span>
+            <h3>HTML/CSS Development</h3>
+            <p>Clean, semantic and well-organised code that loads quickly, is easy to maintain and follows web best
+              practices.</p>
+          </li>
+          <li class="service card reveal" style="--d:2">
+            <span class="service-icon" aria-hidden="true"><svg class="icon">
+                <use href="#i-layers" />
+              </svg></span>
+            <h3>Front-End Development</h3>
+            <p>Interactive features built with JavaScript, such as menus, forms, filters and animations that bring a
+              site to life.</p>
+          </li>
+        </ul>
+
+        <div class="services-cta reveal">
+          <p>Not sure which service fits? Tell me about your project.</p>
+          <a class="btn btn-primary" href="#contact">Discuss your project</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+    <section class="section section-alt" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 id="projects-title">Selected demo projects</h2>
+          <p>Concept websites that show how I approach layout, responsiveness and clean code. Open any project to see
+            the details.</p>
+        </div>
+
+        <div class="filters reveal" role="group" aria-label="Filter projects">
+          <button class="filter is-active" type="button" data-filter="all" aria-pressed="true">All</button>
+          <button class="filter" type="button" data-filter="business" aria-pressed="false">Business Websites</button>
+          <button class="filter" type="button" data-filter="landing" aria-pressed="false">Landing Pages</button>
+          <button class="filter" type="button" data-filter="portfolio" aria-pressed="false">Portfolio</button>
+        </div>
+        <p class="sr-only" id="filter-status" aria-live="polite"></p>
+
+        <div class="projects-grid" id="projects-grid">
+
+          <!-- Project 1: Beauty Salon -->
+          <article class="project card reveal" data-category="landing" data-type="Landing page"
+            data-features="A soft, elegant look with a clear service menu|A booking call-to-action that stays easy to find|Mobile-first layout that scales up to desktop">
+            <div class="mock-wrap" role="img" aria-label="Design preview of the Beauty Salon Website">
+              <div class="mock m-salon">
+                <div class="mock-chrome"><i></i><i></i><i></i><span>bloom-salon.demo</span></div>
+                <div class="mock-body">
+                  <div class="mk-nav"><span class="mk-logo"></span><span class="mk-brand">Bloom Salon</span><i
+                      class="mk-bar" style="--w:3.4em"></i><i class="mk-bar" style="--w:3em"></i><i class="mk-bar"
+                      style="--w:3.6em"></i><span class="mk-btn mk-push">Book now</span></div>
+                  <div class="ms-hero">
+                    <div class="ms-copy">
+                      <div class="mk-h">Glow with<br>confidence</div>
+                      <i class="mk-line" style="--w:92%"></i><i class="mk-line" style="--w:74%"></i>
+                      <span class="mk-btn">Book an appointment</span>
+                    </div>
+                    <div class="ms-art"><span class="ms-arch"></span><span class="ms-dot"></span></div>
+                  </div>
+                  <div class="ms-services"><span>Hair</span><span>Skin</span><span>Nails</span><span>Makeup</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-meta"><span class="badge">Landing Page</span><span class="badge badge-muted">Concept
+                  demo</span></div>
+              <h3 class="project-title">Beauty Salon Website</h3>
+              <p class="project-desc">A soft, elegant one-page website for a beauty salon with a service menu and a
+                clear booking call to action.</p>
+              <ul class="chips" aria-label="Technologies used">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+              </ul>
+              <div class="project-actions">
+                <button class="btn btn-primary btn-sm" type="button" data-action="demo" data-demo-url="">Live
+                  Demo</button>
+                <button class="btn btn-ghost btn-sm" type="button" data-action="details">View Project</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Personal Portfolio -->
+          <article class="project card reveal" style="--d:1" data-category="portfolio" data-type="Portfolio website"
+            data-features="Intro section with a clear call to action|Project grid that is easy to scan|Smooth scrolling and a simple contact area">
+            <div class="mock-wrap" role="img" aria-label="Design preview of the Personal Portfolio Website">
+              <div class="mock m-portfolio">
+                <div class="mock-chrome"><i></i><i></i><i></i><span>my-portfolio.demo</span></div>
+                <div class="mock-body">
+                  <div class="mk-nav"><span class="mk-logo"></span><span class="mk-brand">Portfolio</span><i
+                      class="mk-bar" style="--w:3em"></i><i class="mk-bar" style="--w:3.4em"></i><i class="mk-bar"
+                      style="--w:2.8em"></i><span class="mk-btn mk-push">Contact</span></div>
+                  <div class="mp-hero">
+                    <div class="mp-copy">
+                      <span class="mp-avatar"></span>
+                      <div class="mk-h">Designer &amp;<br>Developer</div>
+                      <i class="mk-line" style="--w:88%"></i><i class="mk-line" style="--w:64%"></i>
+                      <div class="mp-btns"><span class="mk-btn">View work</span><span class="mk-btn mk-btn-ghost">About
+                          me</span></div>
+                    </div>
+                    <div class="mp-grid"><i></i><i></i><i></i><i></i><i></i></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-meta"><span class="badge">Portfolio</span><span class="badge badge-muted">Concept
+                  demo</span></div>
+              <h3 class="project-title">Personal Portfolio Website</h3>
+              <p class="project-desc">A clean portfolio layout for creatives and professionals, with an intro, a work
+                grid and a simple contact area.</p>
+              <ul class="chips" aria-label="Technologies used">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+              </ul>
+              <div class="project-actions">
+                <button class="btn btn-primary btn-sm" type="button" data-action="demo" data-demo-url="">Live
+                  Demo</button>
+                <button class="btn btn-ghost btn-sm" type="button" data-action="details">View Project</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: Tuition Academy -->
+          <article class="project card reveal" style="--d:2" data-category="business" data-type="Business website"
+            data-features="Course overview cards for parents and students|An enquiry form with clear validation|Organised structure that is easy to navigate">
+            <div class="mock-wrap" role="img" aria-label="Design preview of the Tuition Academy Website">
+              <div class="mock m-academy">
+                <div class="mock-chrome"><i></i><i></i><i></i><span>brightpath-academy.demo</span></div>
+                <div class="mock-body">
+                  <div class="mk-nav"><span class="mk-logo"></span><span class="mk-brand">BrightPath</span><i
+                      class="mk-bar" style="--w:3em"></i><i class="mk-bar" style="--w:3.4em"></i><i class="mk-bar"
+                      style="--w:3em"></i><span class="mk-btn mk-push">Enrol</span></div>
+                  <div class="ma-hero">
+                    <div class="ma-copy">
+                      <div class="mk-h">Learn with<br>confidence</div>
+                      <i class="mk-line" style="--w:90%"></i><i class="mk-line" style="--w:68%"></i>
+                      <span class="mk-btn">Enrol now</span>
+                    </div>
+                    <div class="ma-tiles">
+                      <span class="ma-tile"><b></b>Maths</span>
+                      <span class="ma-tile"><b></b>Science</span>
+                      <span class="ma-tile"><b></b>English</span>
+                      <span class="ma-tile"><b></b>Computer</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-meta"><span class="badge">Business Website</span><span
+                  class="badge badge-muted">Concept demo</span></div>
+              <h3 class="project-title">Tuition Academy Website</h3>
+              <p class="project-desc">An approachable website for a tuition academy that presents courses and enrolment
+                details in an organised layout.</p>
+              <ul class="chips" aria-label="Technologies used">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+              </ul>
+              <div class="project-actions">
+                <button class="btn btn-primary btn-sm" type="button" data-action="demo" data-demo-url="">Live
+                  Demo</button>
+                <button class="btn btn-ghost btn-sm" type="button" data-action="details">View Project</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4: Restaurant -->
+          <article class="project card reveal" data-category="business" data-type="Business website"
+            data-features="A warm, appetising visual style|Menu, opening hours and location in one place|Reservation call-to-action on every screen size">
+            <div class="mock-wrap" role="img" aria-label="Design preview of the Restaurant Website">
+              <div class="mock m-restaurant">
+                <div class="mock-chrome"><i></i><i></i><i></i><span>ember-kitchen.demo</span></div>
+                <div class="mock-body">
+                  <div class="mk-nav"><span class="mk-logo"></span><span class="mk-brand">Ember Kitchen</span><i
+                      class="mk-bar" style="--w:2.8em"></i><i class="mk-bar" style="--w:3.2em"></i><i class="mk-bar"
+                      style="--w:3em"></i><span class="mk-btn mk-push">Reserve</span></div>
+                  <div class="mr-hero">
+                    <div class="mr-copy">
+                      <div class="mk-h">Fresh food,<br>served warm</div>
+                      <i class="mk-line" style="--w:90%"></i><i class="mk-line" style="--w:66%"></i>
+                      <div class="mp-btns"><span class="mk-btn">Book a table</span><span
+                          class="mk-btn mk-btn-ghost">View menu</span></div>
+                    </div>
+                    <div class="mr-plate"><span class="ring"></span><span class="dish"></span><span
+                        class="leaf l1"></span><span class="leaf l2"></span><span class="leaf l3"></span></div>
+                  </div>
+                  <div class="mr-menu"><span><i></i><b></b></span><span><i></i><b></b></span><span><i></i><b></b></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-meta"><span class="badge">Business Website</span><span
+                  class="badge badge-muted">Concept demo</span></div>
+              <h3 class="project-title">Restaurant Website</h3>
+              <p class="project-desc">A warm, appetising design with a menu section, opening hours and a simple table
+                reservation call to action.</p>
+              <ul class="chips" aria-label="Technologies used">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+              </ul>
+              <div class="project-actions">
+                <button class="btn btn-primary btn-sm" type="button" data-action="demo" data-demo-url="">Live
+                  Demo</button>
+                <button class="btn btn-ghost btn-sm" type="button" data-action="details">View Project</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 5: E-commerce Landing Page -->
+          <article class="project card reveal" style="--d:1" data-category="landing" data-type="Landing page"
+            data-features="A featured product with its key benefits|A strong, high-contrast buy button|Trust points placed close to the call to action">
+            <div class="mock-wrap" role="img" aria-label="Design preview of the E-commerce Landing Page">
+              <div class="mock m-shop">
+                <div class="mock-chrome"><i></i><i></i><i></i><span>everyday-store.demo</span></div>
+                <div class="mock-body">
+                  <div class="mk-nav"><span class="mk-logo"></span><span class="mk-brand">Everyday</span><i
+                      class="mk-bar" style="--w:3em"></i><i class="mk-bar" style="--w:3.2em"></i><i class="mk-bar"
+                      style="--w:2.6em"></i><span class="mk-cart mk-push"></span></div>
+                  <div class="mshop-hero">
+                    <div class="mshop-copy">
+                      <span class="mshop-badge">New arrival</span>
+                      <div class="mk-h">Hydrate<br>in style</div>
+                      <i class="mk-line" style="--w:90%"></i>
+                      <span class="mk-btn">Shop now</span>
+                    </div>
+                    <div class="mshop-art"><span class="backdrop"></span><span class="bottle"><em class="cap"></em><em
+                          class="body"></em></span><span class="sticker">Save<br>20%</span></div>
+                  </div>
+                  <div class="mshop-trust"><span>Free delivery</span><span>Easy returns</span><span>Secure
+                      checkout</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-meta"><span class="badge">Landing Page</span><span class="badge badge-muted">Concept
+                  demo</span></div>
+              <h3 class="project-title">E-commerce Landing Page</h3>
+              <p class="project-desc">A conversion-focused landing page that highlights one product, its benefits and a
+                clear buy button.</p>
+              <ul class="chips" aria-label="Technologies used">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+              </ul>
+              <div class="project-actions">
+                <button class="btn btn-primary btn-sm" type="button" data-action="demo" data-demo-url="">Live
+                  Demo</button>
+                <button class="btn btn-ghost btn-sm" type="button" data-action="details">View Project</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 6: Business Website -->
+          <article class="project card reveal" style="--d:2" data-category="business" data-type="Business website"
+            data-features="Services, about and contact sections with clear hierarchy|A professional look that builds trust|Consistent components that are easy to extend">
+            <div class="mock-wrap" role="img" aria-label="Design preview of the Business Website">
+              <div class="mock m-business">
+                <div class="mock-chrome"><i></i><i></i><i></i><span>northfield-co.demo</span></div>
+                <div class="mock-body">
+                  <div class="mk-nav"><span class="mk-logo"></span><span class="mk-brand">Northfield</span><i
+                      class="mk-bar" style="--w:3em"></i><i class="mk-bar" style="--w:3.2em"></i><i class="mk-bar"
+                      style="--w:3em"></i><span class="mk-btn mk-push">Get a quote</span></div>
+                  <div class="mb-hero">
+                    <div class="mb-panel">
+                      <div class="mk-h">Reliable<br>solutions</div>
+                      <i class="mk-line" style="--w:90%"></i>
+                      <span class="mk-btn">Our services</span>
+                    </div>
+                    <div class="mb-chart"><i style="--h:34%"></i><i style="--h:50%"></i><i style="--h:44%"></i><i
+                        style="--h:70%"></i><i style="--h:88%"></i></div>
+                  </div>
+                  <div class="mb-features">
+                    <span><b></b><i></i><i></i></span><span><b></b><i></i><i></i></span><span><b></b><i></i><i></i></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-meta"><span class="badge">Business Website</span><span
+                  class="badge badge-muted">Concept demo</span></div>
+              <h3 class="project-title">Business Website</h3>
+              <p class="project-desc">A professional multi-section website for a small business, built for trust,
+                clarity and easy contact.</p>
+              <ul class="chips" aria-label="Technologies used">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+              </ul>
+              <div class="project-actions">
+                <button class="btn btn-primary btn-sm" type="button" data-action="demo" data-demo-url="">Live
+                  Demo</button>
+                <button class="btn btn-ghost btn-sm" type="button" data-action="details">View Project</button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= WHY WORK WITH ME ================= -->
+    <section class="section" id="why" aria-labelledby="why-title">
+      <div class="container why-grid">
+        <div class="section-head reveal">
+          <h2 id="why-title">Why work with me</h2>
+          <p>A website is often the first impression people get of you or your business. I build every one with care.
+          </p>
+        </div>
+
+        <ul class="why-list">
+          <li class="why-item reveal" style="--d:0">
+            <span class="why-icon" aria-hidden="true"><svg class="icon">
+                <use href="#i-devices" />
+              </svg></span>
+            <div>
+              <h3>Responsive Design</h3>
+              <p>Your website will look and work well on phones, tablets and desktops.</p>
+            </div>
+          </li>
+          <li class="why-item reveal" style="--d:1">
+            <span class="why-icon" aria-hidden="true"><svg class="icon">
+                <use href="#i-layout" />
+              </svg></span>
+            <div>
+              <h3>Clean &amp; Modern UI</h3>
+              <p>Tidy layouts, balanced spacing and readable typography give your brand a professional look.</p>
+            </div>
+          </li>
+          <li class="why-item reveal" style="--d:2">
+            <span class="why-icon" aria-hidden="true"><svg class="icon">
+                <use href="#i-pointer" />
+              </svg></span>
+            <div>
+              <h3>User-Friendly Experience</h3>
+              <p>Clear navigation and simple interactions make it easy for visitors to find what they need and get in
+                touch.</p>
+            </div>
+          </li>
+          <li class="why-item reveal" style="--d:3">
+            <span class="why-icon" aria-hidden="true"><svg class="icon">
+                <use href="#i-target" />
+              </svg></span>
+            <div>
+              <h3>Attention to Detail</h3>
+              <p>From alignment to hover states and form validation, I check the small things that make a site feel
+                finished.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section class="section section-alt" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-grid">
+
+        <div class="contact-copy reveal">
+          <h2 id="contact-title">Let's Build Something Great Together</h2>
+          <p>Tell me about your project, your goals and your timeline. Share as much or as little as you like and I'll
+            help you figure out the next step.</p>
+
+          <!-- PLACEHOLDERS: replace the values below with your real details -->
+          <ul class="contact-list">
+            <li>
+              <span class="contact-icon" aria-hidden="true"><svg class="icon">
+                  <use href="#i-mail" />
+                </svg></span>
+              <div>
+                <span class="contact-label">Email</span>
+                <a class="ph" href="tayyabajaved@gmail.com" id="contact-email">tayyabajaved441@gmail.com</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <form class="contact-form card reveal" id="contact-form" style="--d:2" novalidate data-endpoint="/api/contact">
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" autocomplete="name" placeholder="Your full name" required
+              aria-describedby="name-error">
+            <p class="field-error" id="name-error" aria-live="polite"></p>
+          </div>
+
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required
+              aria-describedby="email-error">
+            <p class="field-error" id="email-error" aria-live="polite"></p>
+          </div>
+
+          <div class="field">
+            <label for="project-type">Project type</label>
+            <select id="project-type" name="project-type" required aria-describedby="type-error">
+              <option value="" selected disabled>Select a project type</option>
+              <option>Custom website design</option>
+              <option>Responsive website</option>
+              <option>Landing page</option>
+              <option>Website redesign</option>
+              <option>HTML/CSS development</option>
+              <option>Other</option>
+            </select>
+            <p class="field-error" id="type-error" aria-live="polite"></p>
+          </div>
+
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project, goals and timeline"
+              required aria-describedby="message-error"></textarea>
+            <p class="field-error" id="message-error" aria-live="polite"></p>
+          </div>
+
+          <button class="btn btn-primary btn-block" type="submit">
+            <svg class="icon" aria-hidden="true">
+              <use href="#i-send" />
+            </svg>
+            Send Message
+          </button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-text">
+        <p class="footer-title">Tayyaba Bibi — Front-End Web Developer</p>
+        <p class="footer-copy">&copy; <span id="year">2026</span> Tayyaba Bibi. Designed and built with HTML, CSS and
+          JavaScript.</p>
+      </div>
+
+      <!-- PLACEHOLDER LINKS: replace each URL with your real profile -->
+      <ul class="socials" aria-label="Social media">
+        <li><a href="https://github.com/tayyabajaved441-stack" target="_blank" rel="noopener noreferrer"
+            aria-label="GitHub (opens in a new tab)"><svg class="icon" aria-hidden="true">
+              <use href="#i-github" />
+            </svg></a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="to-top" id="to-top" type="button" aria-label="Back to top">
+    <svg class="icon" aria-hidden="true">
+      <use href="#i-arrow-up" />
+    </svg>
+  </button>
+
+  <!-- Project details dialog -->
+  <dialog class="modal" id="project-modal" aria-labelledby="modal-title">
+    <div class="modal-inner">
+      <button class="modal-close" type="button" id="modal-close" aria-label="Close project details">
+        <svg class="icon" aria-hidden="true">
+          <use href="#i-x" />
+        </svg>
+      </button>
+      <div class="modal-visual" id="modal-visual"></div>
+      <div class="modal-info">
+        <p class="modal-type" id="modal-type"></p>
+        <h3 id="modal-title"></h3>
+        <p id="modal-desc"></p>
+        <h4>Highlights</h4>
+        <ul class="modal-features" id="modal-features"></ul>
+        <h4>Built with</h4>
+        <ul class="chips" id="modal-tech"></ul>
+        <p class="modal-note" id="modal-note" hidden>This is a concept demo created to show my design and development
+          approach. A hosted live version will be linked here soon.</p>
+        <div class="modal-actions">
+          <a class="btn btn-primary btn-sm" href="#contact" id="modal-cta">Request something similar</a>
+          <button class="btn btn-ghost btn-sm" type="button" id="modal-dismiss">Close</button>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
